@@ -101,7 +101,7 @@
       let result = '';
 
       for (let i = 0; i < data.length; i++) {
-        result += `\nLog ID : ${data[i].id}<button onclick="rem('${data[i].id}')" class="glow2">remove</button>\n`
+        result += `\nLog ID : ${data[i].id} <button onclick="rem('${data[i].id}')" class="glow2">remove</button>\n`
         result += objForm(data[i].data);
       };
 
